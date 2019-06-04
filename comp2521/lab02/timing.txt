@@ -1,0 +1,33 @@
+Input	Initial	Has	 Number	 AvgTime  AvgTime
+Size	Order	Dups ofruns  forusel  forsort
+5000	random	no	 10      0.10	  0.006
+5000	sorted	no 	 10	     0.002	  0.002
+5000	reverse	no	 10	     0.003	  0.002
+5000	random	yes	 10	     0.090	  0.006
+5000	sorted	yes	 10	     0.006	  0.002
+5000	reverse	yes	 10	     0.003	  0.003
+10000	random	no	 10	     0.33	  0.012
+10000	sorted	no	 10	     0.006	  0.005
+10000	reverse	no	 10	     0.006 	  0.007
+10000	random	yes	 10	     0.33	  0.012
+10000	sorted	yes	 10	     0.019	  0.004
+10000	reverse	yes	 10	     0.024	  0.007
+
+40000	random	no	 10	     10.6     0.050
+40000	sorted	no	 10	     	  
+40000	reverse	no	 10	      	  
+40000	random	yes	 10	     9.70	  0.046
+40000	sorted	yes	 10	     	  
+40000	reverse	yes	 10	     	           
+
+according to random data, sort function shows a close linear trending. 
+but usel function is more likely to be quadratic trending, but not exactly match.
+This is because in my usel function, each data is going to compare to each member already in the list,
+so that when data doubles, comparation*4.
+For sort, maybe it's using a different way to sort data compare each data once.
+So that when data size is 5000, two function takes similar time, but when size increase, time of sort is much faster.
+
+By comparing random, sorted and reverse data, sorted data and reverse data fallows linear trending.
+This is because of in my usel function, it check for if the data goes in front or at the back first, so it won't waste time to go through the for function. When size doubles, time will double as well.
+
+

@@ -1,0 +1,66 @@
+=== Testing for random input, size 100000 ===
+=13.77 seconds
+=14.35 seconds
+=14.06 seconds
+=13.30 seconds
+=13.38 seconds
+=15.22 seconds
+=14.48 seconds
+=14.44 seconds
+=14.65 seconds
+=13.29 seconds
+=14.36 seconds
+=14.56 seconds
+=14.32 seconds
+=14.50 seconds
+=13.98 seconds
+=13.85 seconds
+=13.54 seconds
+=12.95 seconds
+=14.07 seconds
+=13.46 seconds
+
+=== Testing for sorted input, size 100000 ===
+=13.16 seconds
+=13.65 seconds
+=13.23 seconds
+=13.34 seconds
+=13.99 seconds
+=14.58 seconds
+=13.22 seconds
+=13.53 seconds
+=13.55 seconds
+=13.48 seconds
+=13.44 seconds
+=13.03 seconds
+=13.78 seconds
+=14.14 seconds
+=13.88 seconds
+=13.56 seconds
+=13.10 seconds
+=13.12 seconds
+=13.24 seconds
+=13.54 seconds
+
+=== Testing for reverse input, size 100000 ===
+=13.26 seconds
+=12.23 seconds
+=13.02 seconds
+=12.78 seconds
+=12.61 seconds
+=12.90 seconds
+=12.83 seconds
+=13.34 seconds
+=12.69 seconds
+=13.65 seconds
+=12.81 seconds
+=12.43 seconds
+=12.33 seconds
+=12.95 seconds
+=13.69 seconds
+=13.92 seconds
+=13.27 seconds
+=14.38 seconds
+=13.86 seconds
+=13.41 seconds
+
